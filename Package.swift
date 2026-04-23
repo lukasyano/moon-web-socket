@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "MOONWebSocket",
+    name: "moon-web-socket",
     platforms: [
         .macOS(.v13),
     ],
