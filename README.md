@@ -1,1 +1,1 @@
-# moon-web-socket
+# Client for managing web-sockets
