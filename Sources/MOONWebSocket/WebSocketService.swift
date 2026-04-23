@@ -16,7 +16,7 @@ public final class DefaultWebSocketService: @unchecked Sendable {
 
     public var onEvent: (@Sendable (WebSocketEvent) -> Void)?
 
-    init(eventLoopGroup: any EventLoopGroup) {
+    public init(eventLoopGroup: any EventLoopGroup) {
         self.eventLoopGroup = eventLoopGroup
     }
 }
