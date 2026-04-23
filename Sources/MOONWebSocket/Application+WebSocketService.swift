@@ -1,6 +1,6 @@
 import Vapor
 
-extension Application {
+public extension Application {
     private struct WebSocketServiceKey: StorageKey {
         typealias Value = WebSocketService
     }
